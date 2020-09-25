@@ -13,4 +13,7 @@ Permanent_Landmark varchar(100),Permanent_City varchar(20) not null,Permanent_St
 Occupation_Type varchar(20) not null,Source_Of_Income varchar(20) not null,Gross_Annual_Income bigint not null,
 Debitcard_Opted bit default 0,Netbanking_Opted bit default 0,Account_Status bit default 0,Account_Rejected bit default 0)
 
+alter table Create_savings_Account
+add constraint uniqueid unique(User_Id)
+
 select * from Create_Savings_Account 
