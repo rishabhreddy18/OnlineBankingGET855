@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "OnlineBankingAngular"
+    }
+  },
+  "defaultProject": "OnlineBankingAngular",
+  "cli": {
+    "analytics": "73432a21-6881-4d6a-a81f-5581b423bd44"
+  }
 }
